@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria Uzoma</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Victoria Uzoma</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="themeToggle" class="theme-toggle" type="button"><i data-lucide="moon"></i></button>
+        </nav>
+    </header>
+
+    <main>
+        <!--Hero Section-->
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="intro">Hello, I'm</p>
+                <h1>Victoria Uzoma</h1>
+                <h2>Web Developer & Graphic Designer</h2>
+                <p>I build websites explore Backend development, and creates digital experience with codes and design.</p>
+                <div class="hero-buttons">
+                  <a href="#projects">View My Work</a>
+                  <a href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+              <div class="section-heading">
+                <p>Get To Know Me</p>
+                <h2>About Me</h2>
+              </div>
+              
+              <div class="about-content">
+                <div class="about-image">
+                    <img src="images/profile.jpg" alt="Victoria Uzoma">
+                </div>
+                  
+                <div class="about-text">
+                    <p>
+                        I'm a web developer and a graphic Designer interested in building useful, creative and user friendly digital experiences.
+                    </p>
+                    <p>
+                        I'm currently developing my skills across Frontend development, Backend development, Javascript, Typescript, Python and React
+                    </p>
+                    <a href="#contact"> Let's Work Together</a>
+                </div>
+              </div>
+        </section>
+
+        <!-- Skills & Values -->
+
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <p>What I work with</p>
+                <h2>Skills</h2>
+            </div>
+
+            <div class="skills-container">
+                <div class="skills-orbit">
+                    <div class="skills-center">
+                        <p>MY SKILLS</p>
+                    </div>
+                    <span class="skills-icon icon-1">HTML</span>
+                    <span class="skills-icon icon-2">CSS</span>
+                    <span class="skills-icon icon-3">Git</span>
+                    <span class="skills-icon icon-4">JavaScript</span>
+                    <span class="skills-icon icon-5">TypeScript</span>
+                    <span class="skills-icon icon-6">React</span>
+                    <span class="skills-icon icon-7">Node.js</span>
+                    <span class="skills-icon icon-8">Express</span>
+                    <span class="skills-icon icon-9">MongoDB</span>
+                    <span class="skills-icon icon-10">SQL</span>
+                </div>
+            </div>
+        </section>
+
+        <!--Projects-->
+
+        <section id="projects" class="section">
+           <div class="section-heading">
+            <p>Things I've built</p>
+            <h2>Projects</h2>
+           </div>
+
+           <div class="projects-container">
+            <article class="project-card">
+                <div class="project-image">
+                <img src="images/quote-app.jpg" alt="Random Quote App">
+                </div>
+
+                <div class="project-content">
+                   <h3>Quote</h3>
+                   <p>A JavaScript project that displays random quotes when the user interacts with the button</p>
+                   <p>HTML, CSS, JavaScript</p>
+                   <a href="#" class="project-link">View Project</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image"><img src="images/age-checker.jpg" alt="Age-Checker"></div>
+                <div class="project-content">
+                    <h3>Age-Checker</h3>
+                    <p>A small TypeScript project that checks a user's age and displays the appropriate result</p>
+                    <p class="technologies"> HTML, CSS TypeScript</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="images/react-project.jpg" alt="React project">
+                </div>
+                <div class="project-content">
+                    <h3>React Project</h3>
+                    <p> A frontend project built while developing my react skills.</p>
+                    <p class="technologies">React, JavaScript, CSS</p>
+                    <a href="#" class="project-link"> view project</a>
+                </div>
+            </article>
+           </div>
+        </section>
+
+         <!--Blog Preview-->
+
+         <section id="blog-preview" class="section">
+            <div class="section-heading">
+                <p>What i'm learning</p>
+                <h2>Latest From My Blog</h2>
+            </div>
+
+            <div class="blog-container">
+                <article class="blog-card">
+                    <div class="blog-image"><img src="images/blog-javascript.jpg" alt="JavaScript Learning"></div>
+                    <div class="blog-content">
+                        <p class="blog-category">JavaScript</p>
+                        <h3>What I learned Building my first JavaScript project</h3>
+                        <p>Lessons: I learned while working with JavaScript, the DOM and the users interaction.</p>
+                        <a href="article.html?post=javascript-project">Read Article</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog-typescript.jpg" alt="TypeScript learning">
+                    </div>
+                    <div class="blog-content">
+                        <p class="blog-category">TypeScript</p>
+                        <h3>My First Experience With TypeScript</h3>
+                        <p>Understanding types compilation and the difference between TypeScript and JavaScript</p>
+                        <a href="article.html?post=typescript">Read Article</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="blog-button">
+                <a href="blog.html"> View All Articles</a>
+            </div>
+         </section>
+
+         <!--Contact-->
+
+         <section id="contact" class="section">
+            <div class="section-heading">
+                <p>let's Connect</p>
+                <h2>Contact Me</h2>
+            </div>
+
+            <div class="contact-content">
+                <p>Have a Project, Opportunity or Question? I'd love to hear From You.</p>
+                <a href="mailto:vuzoma140@gmail.com">Send Me an Email</a>
+            </div>
+         </section>
+    </main>
+    
+    <footer>
+        <p>2026 Victoria Uzoma.All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
